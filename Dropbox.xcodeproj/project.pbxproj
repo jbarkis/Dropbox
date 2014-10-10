@@ -13,6 +13,13 @@
 		4D76163E19E7AC2D00BFDFA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D76163D19E7AC2D00BFDFA5 /* Images.xcassets */; };
 		4D76164119E7AC2D00BFDFA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D76163F19E7AC2D00BFDFA5 /* LaunchScreen.xib */; };
 		4D76164D19E7AC2D00BFDFA5 /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D76164C19E7AC2D00BFDFA5 /* DropboxTests.swift */; };
+		4D76165719E7B3AB00BFDFA5 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D76165619E7B3AB00BFDFA5 /* CreateAccountRootViewController.swift */; };
+		4D76165919E7B47100BFDFA5 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D76165819E7B47100BFDFA5 /* SignInRootViewController.swift */; };
+		4D76165B19E7B54D00BFDFA5 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D76165A19E7B54D00BFDFA5 /* CreateAccountViewController.swift */; };
+		4D76165D19E7B6F500BFDFA5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D76165C19E7B6F500BFDFA5 /* SignInViewController.swift */; };
+		4D76166119E7C96600BFDFA5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D76166019E7C96600BFDFA5 /* SettingsViewController.swift */; };
+		4D76166519E7CBE900BFDFA5 /* TosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D76166419E7CBE900BFDFA5 /* TosViewController.swift */; };
+		4D76166919E7CEC000BFDFA5 /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D76166819E7CEC000BFDFA5 /* TermsOfServiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		4D76164619E7AC2D00BFDFA5 /* DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D76164B19E7AC2D00BFDFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D76164C19E7AC2D00BFDFA5 /* DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxTests.swift; sourceTree = "<group>"; };
+		4D76165619E7B3AB00BFDFA5 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		4D76165819E7B47100BFDFA5 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		4D76165A19E7B54D00BFDFA5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		4D76165C19E7B6F500BFDFA5 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4D76166019E7C96600BFDFA5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4D76166419E7CBE900BFDFA5 /* TosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TosViewController.swift; sourceTree = "<group>"; };
+		4D76166819E7CEC000BFDFA5 /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,7 @@
 		4D76162819E7AC2D00BFDFA5 = {
 			isa = PBXGroup;
 			children = (
+				4D76166419E7CBE900BFDFA5 /* TosViewController.swift */,
 				4D76163319E7AC2D00BFDFA5 /* Dropbox */,
 				4D76164919E7AC2D00BFDFA5 /* DropboxTests */,
 				4D76163219E7AC2D00BFDFA5 /* Products */,
@@ -80,6 +95,12 @@
 				4D76163619E7AC2D00BFDFA5 /* AppDelegate.swift */,
 				4D76163819E7AC2D00BFDFA5 /* ViewController.swift */,
 				4D76163A19E7AC2D00BFDFA5 /* Main.storyboard */,
+				4D76166819E7CEC000BFDFA5 /* TermsOfServiceViewController.swift */,
+				4D76166019E7C96600BFDFA5 /* SettingsViewController.swift */,
+				4D76165C19E7B6F500BFDFA5 /* SignInViewController.swift */,
+				4D76165A19E7B54D00BFDFA5 /* CreateAccountViewController.swift */,
+				4D76165819E7B47100BFDFA5 /* SignInRootViewController.swift */,
+				4D76165619E7B3AB00BFDFA5 /* CreateAccountRootViewController.swift */,
 				4D76163D19E7AC2D00BFDFA5 /* Images.xcassets */,
 				4D76163F19E7AC2D00BFDFA5 /* LaunchScreen.xib */,
 				4D76163419E7AC2D00BFDFA5 /* Supporting Files */,
@@ -212,8 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D76165B19E7B54D00BFDFA5 /* CreateAccountViewController.swift in Sources */,
+				4D76165919E7B47100BFDFA5 /* SignInRootViewController.swift in Sources */,
+				4D76165D19E7B6F500BFDFA5 /* SignInViewController.swift in Sources */,
+				4D76165719E7B3AB00BFDFA5 /* CreateAccountRootViewController.swift in Sources */,
 				4D76163919E7AC2D00BFDFA5 /* ViewController.swift in Sources */,
 				4D76163719E7AC2D00BFDFA5 /* AppDelegate.swift in Sources */,
+				4D76166119E7C96600BFDFA5 /* SettingsViewController.swift in Sources */,
+				4D76166919E7CEC000BFDFA5 /* TermsOfServiceViewController.swift in Sources */,
+				4D76166519E7CBE900BFDFA5 /* TosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Dropbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Dropbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
