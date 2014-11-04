@@ -435,6 +435,7 @@
 				4D76165219E7AC2E00BFDFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D76165319E7AC2E00BFDFA5 /* Build configuration list for PBXNativeTarget "DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +444,7 @@
 				4D76165519E7AC2E00BFDFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
